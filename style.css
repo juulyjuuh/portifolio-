@@ -86,7 +86,7 @@ header nav.menu-desktop ul li {
 }
 
 .btn-abrir-menu i{
-    color: rgb(255, 255, 255), 255, 255);
+    color rgb(255, 255, 255), 255, 255);
     font-size: 40px;
 }
 
@@ -98,7 +98,7 @@ header nav.menu-desktop ul li {
     right: 0;
     z-index: 99999;
     width: 0%;
-    overflow: hidden;
+    overflow:scroll;
     transition: .5s;
 }
 
