@@ -15,29 +15,29 @@
 
     <script src="menu.js" defer></script>
 
-    <title>Agência BRN</title>
+    <title>Julia Merlo</title>
 </head>
 <body>
     
     <header>
         <div class="interface">
             <div class="logo">
-                <a href="#">
+                <a href="/index.html">
                     <img src="images/logo.png" alt="Logo da julia">
                 </a>
             </div><!--logo-->
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#topo-do-site">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portifolio">Projetos</a></li>
                 </ul>
             </nav>
 
             <div class="btn-contato">
-                <a href="#">
+                <a href="#formulario">
                     <button>Contato</button>
                 </a>
             </div><!--btn-contato-->
@@ -53,11 +53,11 @@
 
                 <nav>
                     <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Especialidades</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#topo-do-site">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#portifolio">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                 </nav>
 
@@ -67,7 +67,7 @@
     </header>
 
     <main>
-        <section class="topo-do-site">
+        <section id="topo-do-site" class="topo-do-site">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
@@ -75,7 +75,7 @@
                         <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design impactante, funcionalidade intuitiva e otimização para resultados, estou pronto(a) para criar a presença online dos seus sonhos.</p>
 
                         <div class="btn-contato">
-                            <a href="#">
+                            <a href="#formulario">
                                 <button>Entre em contato</button>
                             </a>
                         </div>
@@ -88,7 +88,7 @@
             </div><!--interface-->
         </section><!--topo-do-site-->
 
-        <section class="especiliadades">
+        <section id="especialidades" class="especiliadades">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
@@ -105,7 +105,7 @@
                     </div><!--especialidades-box-->
 
                     <div class="especialidades-box">
-                        <i class="bi bi-wordpress"></i>
+                        <i class="bi bi-layout-text-window-reverse"></i>
                         <h3>Blog</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
                     </div><!--especialidades-box-->
@@ -113,7 +113,7 @@
             </div><!--interface-->
         </section><!--especiliadades-->
 
-        <section class="sobre">
+        <section id="sobre" class="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -121,24 +121,24 @@
                     </div><!--img-sobre-->
 
                     <div class="txt-sobre">
-                        <h2>MUITO PRAZER, <span>SOU BRUNO RODRIGUES.</span></h2>
+                        <h2>MUITO PRAZER, <span>SOU JULIA MERLO.</span></h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At accusantium ducimus dicta suscipit, neque cumque sunt tenetur totam delectus magnam minus ratione. Quidem sequi velit voluptatibus eos omnis ullam officiis.</p>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quidem quae iusto repellendus eaque, ipsum sed voluptate explicabo voluptas, dolorum porro sequi laudantium? Obcaecati quae, dolores illo officiis a numquam.</p>
                         <div class="btn-social">
-                            <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                            <a href="#"><button><i class="bi bi-youtube"></i></button></a>
-                            <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://www.instagram.com/juuly_juuh/"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/juulyjuuh"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/júlia-merlo-274aa5264/"><button><i class="bi bi-linkedin"></i></button></a>
                         </div><!--btn-social-->
                     </div><!--txt-sobre-->
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--sobre-->
 
-        <section class="portfolio">
+        <section id="portifolio" class="portfolio">
             <div class="interface">
                 <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
                 <div class="flex">
-                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                    <div class="img-port" style="background-image: url(images/imagem.png);">
                         <div class="overlay">Projeto 1</div>
                     </div>
                     <div class="img-port" style="background-image: url(images/imagem.jpg);">
@@ -151,17 +151,21 @@
             </div><!--interface-->
         </section><!--portfolio-->
 
-        <section class="formulario">
+        <section id="formulario" class="formulario">
             <div class="interface">
-                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+                <h2 class="titulo">FALE <span>COMIGO.</span></h2>
 
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
-                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
-                    <input type="text" name="" id="" placeholder="Seu celular:">
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail:" required>
+                    <input type="tel" name="celular" id="celular" placeholder="Seu celular:">
+                    <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" required></textarea>
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                
+                    <input type="hidden" name="accessKey" value="f89a942f-8b32-419c-a666-b8e1e1ce334e">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigada.html">
                 </form>
+                
             </div><!--interface-->
         </section><!--formulario-->
 
@@ -172,18 +176,20 @@
             <div class="line-footer">
                 <div class="flex">
                     <div class="logo-footer">
+                        <a href="/index.html"></a>
                         <img src="images/logo.png" alt="Logotipo da julia">
                     </div><!--logo-footer-->
                     <div class="btn-social">
-                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                        <a href="#"><button><i class="bi bi-youtube"></i></button></a>
-                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://www.instagram.com/juuly_juuh/"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/juulyjuuh"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/júlia-merlo-274aa5264/"><button><i class="bi bi-linkedin"></i></button></a>
                     </div><!--btn-social-->
                 </div>
             </div><!--line-footer-->
 
             <div class="line-footer borda">
                 <p><i class="bi bi-envelope-fill"></i> <a href="mailto:juliamerlo15@gmail.com">juliamerlo15@gmail.com</a></p>
+            
             </div><!--line-footer-->
         </div><!--interface-->
     </footer>

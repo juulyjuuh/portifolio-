@@ -24,7 +24,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00FF08;
+    background-color: #8600e7;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -38,12 +38,12 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: #00FF08;
+    color: #450b6e;
 }
 
 button:hover,
 form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #00ff08;
+    box-shadow: 0px 0px 8px #450b6e;
     transform: scale(1.05);
 }
 
@@ -66,7 +66,7 @@ header a {
 }
 
 header nav.menu-desktop a:hover {
-    color: #fff;
+    color: #9a0cff;
     transform: scale(1.05);
 }
 
@@ -86,7 +86,7 @@ header nav.menu-desktop ul li {
 }
 
 .btn-abrir-menu i{
-    color: #00FF08;
+    color: #450b6e;
     font-size: 40px;
 }
 
@@ -116,7 +116,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile .btn-fechar i{
-    color: #00FF08;
+    color: #450b6e;
     font-size: 30px;
 }
 
@@ -133,7 +133,7 @@ header nav.menu-desktop ul li {
 }   
 
 .menu-mobile nav ul li a:hover{
-    background-color: #00FF08;
+    background-color: #450b6e;
     color: #000;
 }
 
@@ -166,7 +166,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site h1 span {
-    color: #00FF08;
+    color: #450b6e;
 }
 
 .topo-do-site .txt-topo-site p {
@@ -214,7 +214,7 @@ section.especiliadades .flex {
 
 .especiliadades .especialidades-box i {
     font-size: 70px;
-    color: #00FF08;
+    color: #500882;
 }
 
 .especiliadades .especialidades-box h3 {
@@ -243,7 +243,7 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre h2 span {
-    color: #00FF08;
+    color: #9a0cff;
     display: block;
 }
 
@@ -257,7 +257,7 @@ section.sobre .flex {
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #00FF08;
+    background-color: #9500ff;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -351,7 +351,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: #00FF08;
+    background-color: #9500ff;
     color: #000;
     font-weight: 700;
     cursor: pointer;
@@ -374,11 +374,11 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #00FF08;
+    border-top: 2px solid #9500ff;
 }
 
 footer .line-footer p i {
-    color: #00FF08;
+    color: #9500ff;
     font-size: 22px;
 }
 
@@ -474,4 +474,5 @@ footer .line-footer p a {
     footer .line-footer {
         text-align: center;
     }
-}
+    
+    }
