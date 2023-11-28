@@ -86,12 +86,12 @@ header nav.menu-desktop ul li {
 }
 
 .btn-abrir-menu i{
-    color: #450b6e;
+    color: #ffffff;
     font-size: 40px;
 }
 
 .menu-mobile{
-    background-color: #000;
+    background-color: #ff0000;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -116,7 +116,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile .btn-fechar i{
-    color: #450b6e;
+    color: #ffffff;
     font-size: 30px;
 }
 
@@ -134,7 +134,7 @@ header nav.menu-desktop ul li {
 
 .menu-mobile nav ul li a:hover{
     background-color: #450b6e;
-    color: #000;
+    color: #ffffff;
 }
 
 .overlay-menu{
@@ -374,7 +374,7 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #9500ff;
+    border-top: 2px solid #6b08b1;
 }
 
 footer .line-footer p i {
